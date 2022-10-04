@@ -1,10 +1,10 @@
 body {
-    padding: 5em;
+    padding: 5vw 5vh;
     font-family: Arial, sans-serif;
-    font-size: 1.3em;
+    font-size: 3vw;
 }
 main {
-    height: 500px;
+    height: 100vh;
     position: relative;
 }
 section#welcome {
@@ -18,7 +18,7 @@ section#welcome {
 }
 h1 {
     font-family: Georgia, serif;
-    font-size: 3em;
+    font-size: 6vw;
     color: #344D66;
 }
 h1 span {
