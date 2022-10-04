@@ -1,0 +1,40 @@
+body {
+    padding: 5em;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+}
+main {
+    height: 500px;
+    position: relative;
+}
+section#welcome {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 3em;
+    color: #344D66;
+}
+h1 span {
+    color: #F15938;
+    font-style: italic;
+}
+p {
+    color: #344D66;
+    opacity: .8;
+}
+a {
+    color: #344D66;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #F15938;
+}
